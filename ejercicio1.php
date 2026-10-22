@@ -21,7 +21,7 @@
             }
         }
 
-        echo generarSaludo("Ana", 9) . "<br>";
+        echo generarSaludo("Ángel", 9) . "<br>";
         echo generarSaludo("Carlos", 16) . "<br>";
         echo generarSaludo("Elena", 23) . "<br>";
         ?>
