@@ -1,4 +1,6 @@
 <?php
+require 'menu.php';
+
 function generarSaludo($nombre, $hora) {
     if ($hora >= 6 && $hora < 12) {
         return "¡Buenos días, $nombre!";

@@ -1,4 +1,6 @@
 <?php
+require 'menu.php';
+
 $producto = [
     "nombre" => "Teclado Mecánico",
     "precio" => 45.99,
