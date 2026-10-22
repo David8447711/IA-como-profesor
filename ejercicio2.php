@@ -22,7 +22,7 @@
         }
 
         $media = $suma / $totalNotas;
-        echo "<br><strong>Nota media resultante:</strong> $media<br>";
+        echo "<br><strong>Nota media:</strong> $media<br>";
 
         if ($media >= 5) {
             echo "Resultado: ¡El alumno ha aprobado!";
