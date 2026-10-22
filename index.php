@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <title>Ejercicio</title>
 </head>
-<body style="background-color: #222; color: white; font-family: Arial;">
+<body style="background-color: #222; color: white; font-family: Arial; margin: 0;">
 
     <?php require 'menu.php'; ?>
 
-    <h1 style="padding: 20px;">Página Principal</h1>
-    <p style="padding: 0 20px;">Elige un ejercicio en el menú de arriba.</p>
+    <div style="padding: 20px;">
+        <?php
+        ?>
+    </div>
 
 </body>
 </html>
