@@ -1,22 +1,36 @@
-<?php
-require 'menu.php';
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+</head>
+<body style="background-color: #222; color: white; font-family: Arial; margin: 0;">
 
-$notas = [3, 8, 8, 4, 5];
-$suma = 0;
-$totalNotas = count($notas);
+    <?php require 'menu.php'; ?>
 
-echo "Notas del alumno: ";
-foreach ($notas as $nota) {
-    echo "$nota ";
-    $suma += $nota;
-}
+    <div style="padding: 20px;">
+        <h1>Analizador de Notas</h1>
+        <?php
+        $notas = [4, 7, 9, 3, 6];
+        $suma = 0;
+        $totalNotas = count($notas);
 
-$media = $suma / $totalNotas;
-echo "<br>Nota media: $media<br>";
+        echo "Notas individuales: ";
+        foreach ($notas as $nota) {
+            echo "$nota ";
+            $suma += $nota;
+        }
 
-if ($media >= 5) {
-    echo "¡El alumno ha aprobado!";
-} else {
-    echo "El alumno ha suspendido.";
-}
-?>
+        $media = $suma / $totalNotas;
+        echo "<br><strong>Nota media resultante:</strong> $media<br>";
+
+        if ($media >= 5) {
+            echo "Resultado: ¡El alumno ha aprobado!";
+        } else {
+            echo "Resultado: El alumno ha suspendido.";
+        }
+        ?>
+    </div>
+
+</body>
+</html>
